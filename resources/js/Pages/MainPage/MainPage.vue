@@ -53,7 +53,7 @@
                     :key="product.id"
                 >
                     <div class="product-image-products">
-                        <img :src="product.image_url || '/storage/assets/img/placeholder.png'" alt="Product Image" />
+                        <img :src="product.image_url || '/assets/img/placeholder.png'" alt="Product Image" />
                     </div>
                     <div class="product-title-products">{{ product.name }}</div>
                     <div class="product-details-price">
@@ -86,7 +86,7 @@
                     :key="product.id"
                 >
                     <div class="product-image-products">
-                        <img :src="product.image_url || '/storage/assets/img/placeholder.png'" alt="Product Image" />
+                        <img :src="product.image_url || '/assets/img/placeholder.png'" alt="Product Image" />
                     </div>
                     <div class="product-title-products">{{ product.name }}</div>
                     <div class="product-details-price">
@@ -119,7 +119,7 @@
                     :key="product.id"
                 >
                     <div class="product-image-products">
-                        <img :src="product.image_url || '/storage/assets/img/placeholder.png'" alt="Product Image" />
+                        <img :src="product.image_url || '/assets/img/placeholder.png'" alt="Product Image" />
                     </div>
                     <div class="product-title-products">{{ product.name }}</div>
                     <div class="product-details-price">
@@ -171,8 +171,8 @@ export default defineComponent({
 
             currentImageIndex: 0,
             images: [
-                '/storage/assets/img/e8ee728669d3e8cfbbcdae043d3851e7caabcfc1.png',
-                '/storage/assets/img/slidingimage2.png'
+                '/assets/img/e8ee728669d3e8cfbbcdae043d3851e7caabcfc1.png',
+                '/assets/img/slidingimage2.png'
             ],
             isPrimaryVisible: true,
         };
@@ -320,7 +320,7 @@ export default defineComponent({
     font-family: Poppins, var(--default-font-family);
     font-weight: 250;
     -webkit-text-stroke: 1px #ae52b0;
-    color: #ae52b0;
+    color:rgb(216, 192, 216);
 }
 
 </style>
