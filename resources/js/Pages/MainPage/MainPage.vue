@@ -320,7 +320,7 @@ export default defineComponent({
     font-family: Poppins, var(--default-font-family);
     font-weight: 250;
     -webkit-text-stroke: 1px #ae52b0;
-    color:rgb(216, 192, 216);
+    color: #ae52b0;
 }
 
 </style>
